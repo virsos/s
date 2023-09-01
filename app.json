@@ -39,9 +39,9 @@
       "value": ""
     },
     "MUST_JOIN": {
-      "description": "Username of a group or channel for which you want to set force sub.(@oy3_p)",
+      "description": "Username of a group or channel for which you want to set force sub.(@VV_RSI)",
       "required": true,
-      "value": "DevilsHeavenMF"
+      "value": "t.me/VV_RSI"
     },
     "BOT_TOKEN": {
       "description": "Get this value from @BotFather",
