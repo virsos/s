@@ -1,7 +1,7 @@
 {
-  "name": "sᴇssɪᴏɴ ɢᴇɴᴇʀᴀᴛᴏʀ",
+  "name": "sᴇssɪᴏɴ Virus ",
   "description": "A Telegram Bot to generate Telethon and Pyrogram String Session.",
-  "logo": "https://telegra.ph/file/654ddaf472f18b799600b.jpg",
+  "logo": "https://telegra.ph/file/1bc2985173e1ca350622c.jpg",
   "keywords": [
     "telegram",
     "bot",
@@ -39,7 +39,7 @@
       "value": ""
     },
     "MUST_JOIN": {
-      "description": "Username of a group or channel for which you want to set force sub.(without @)",
+      "description": "Username of a group or channel for which you want to set force sub.(@oy3_p)",
       "required": true,
       "value": "DevilsHeavenMF"
     },
