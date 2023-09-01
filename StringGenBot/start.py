@@ -24,15 +24,15 @@ async def start(bot: Client, msg: Message):
 
 ¤¦ بايـروجـرام مـيوزك للبوتات
 
-¤¦ تم انشاء البوت بواسطة [ㅤ𓏺 ժᥱ᥎ ᥉ᥲ️ꪔᎥٍᖇ . 🕷 ˼](@vVN_h)""",
+¤¦ تم انشاء البوت بواسطة [ㅤ𓏺 ժᥱ᥎ ᥉ᥲ️ꪔᎥٍᖇ . 🕷 ˼](https://t.me/en_jq)""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(text="إضغط لبدا استخراج الكود", callback_data="generate")
                 ],
                 [
-                    InlineKeyboardButton("❣️ sᴏᴜʀᴄᴇ ❣️", url="https://t.me/oy3_p"),
-                    InlineKeyboardButton("🥀 ᴅᴇᴠᴇʟᴏᴩᴇʀ 🥀", user_id=6258084715)
+                    InlineKeyboardButton("sᴏᴜʀᴄᴇ ", url="https://t.me/VV_RSI"),
+                    InlineKeyboardButton("ᴅᴇᴠᴇʟᴏᴩᴇʀ", user_id=6258084715)
                 ]
             ]
         ),
