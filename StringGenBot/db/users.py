@@ -4,7 +4,7 @@ usersdb = db.users
 
 
 async def is_served_user(user_id: int) -> bool:
-    user = await usersdb.find_one({"@en_jq": user_id})
+    user = await usersdb.find_one({"@yg_qo": user_id})
     if not user:
         return False
     return True
@@ -12,7 +12,7 @@ async def is_served_user(user_id: int) -> bool:
 
 async def get_served_users() -> list:
     users_list = []
-    async for user in usersdb.find({"@en_jq": {"$gt": 0}}):
+    async for user in usersdb.find({"@yg_qo": {"$gt": 0}}):
         users_list.append(user)
     return users_list
 
@@ -21,4 +21,4 @@ async def add_served_user(user_id: int):
     is_served = await is_served_user(user_id)
     if is_served:
         return
-    return await usersdb.insert_one({"@en_jq": user_id})
+    return await usersdb.insert_one({"@yg_qo": user_id})
